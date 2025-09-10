@@ -3,7 +3,7 @@ document.getElementById("promptForm").addEventListener("submit", async (e) => {
   const prompt = document.getElementById("prompt").value;
 
   // 내 백엔드 서버 주소 (예시: Render에 배포한 주소)
-  const backendUrl = "https://my-backend.onrender.com/generate";
+  const backendUrl = "http://localhost:3000";
 
   try {
     const response = await fetch(backendUrl, {
