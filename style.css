@@ -1,4 +1,6 @@
+/* CSS가 적용되는지 확인용 */
 body {
+  background-color: #f0f8ff; /* 연한 하늘색 배경 */
   font-family: sans-serif;
   text-align: center;
   margin: 50px;
@@ -6,12 +8,4 @@ body {
 
 h1 {
   color: darkblue;
-}
-
-button {
-  background: blue;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
 }
